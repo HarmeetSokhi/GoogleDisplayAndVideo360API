@@ -1,0 +1,55 @@
+{
+   "kind": "doubleclickbidmanager#query",
+   "metadata": {
+     "dataRange": "CUSTOM_DATES",
+    "title": "DV360_Complete",
+    "format": "CSV"
+   },
+   "params": {
+    "type": "TYPE_GENERAL",
+    "groupBys": [
+     "FILTER_DATE",
+     "FILTER_ADVERTISER",
+     "FILTER_MEDIA_PLAN",
+     "FILTER_INSERTION_ORDER",
+     "FILTER_LINE_ITEM",
+     "FILTER_CREATIVE_ID",
+     "FILTER_CREATIVE_SIZE",
+     "FILTER_CREATIVE_TYPE"
+    ],
+    "filters": [
+     {
+      "type": "FILTER_ADVERTISER",
+      "value": "XXXXX"
+     },
+     {
+      "type": "FILTER_ADVERTISER",
+      "value": "XXXXX"
+     }
+    ],
+    "metrics": [
+     "METRIC_IMPRESSIONS",
+     "METRIC_CLICKS",
+     "METRIC_TOTAL_CONVERSIONS",
+     "METRIC_LAST_CLICKS",
+     "METRIC_LAST_IMPRESSIONS",
+     "METRIC_TOTAL_MEDIA_COST_ADVERTISER",
+     "METRIC_REVENUE_ADVERTISER",
+     "METRIC_RICH_MEDIA_VIDEO_PLAYS",
+     "METRIC_RICH_MEDIA_VIDEO_FIRST_QUARTILE_COMPLETES",
+     "METRIC_RICH_MEDIA_VIDEO_MIDPOINTS",
+     "METRIC_RICH_MEDIA_VIDEO_THIRD_QUARTILE_COMPLETES",
+     "METRIC_RICH_MEDIA_VIDEO_COMPLETIONS",
+     "METRIC_ACTIVE_VIEW_MEASURABLE_IMPRESSIONS",
+     "METRIC_ACTIVE_VIEW_VIEWABLE_IMPRESSIONS"
+    ],
+    "includeInviteData": true
+   },
+   "schedule": {
+    "frequency": "ONE_TIME",
+    "nextRunTimezoneCode": " Australia/Melbourne"
+ },
+ "reportDataStartTimeMs": "%s",
+ "reportDataEndTimeMs": "%s",
+ "timezoneCode": " Australia/Melbourne"
+}
